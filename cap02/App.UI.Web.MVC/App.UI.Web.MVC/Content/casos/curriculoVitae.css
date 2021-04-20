@@ -1,0 +1,33 @@
+﻿body {
+      margin:0px;
+}
+
+.main
+{
+    width:100%;
+    background-color:#355889;    
+}
+
+.content{
+    width:40%;
+    background-color:white;
+    border-top-right-radius:100px;
+   
+}
+
+.content-section {
+    background-color: #758fb2;
+    padding: 20px;
+    color:white;
+}
+
+/*link*/
+a{
+    text-decoration:none;
+    color:red;
+    font-size:18px;
+}
+
+a:hover{
+    color:#562c2c;
+}

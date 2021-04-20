@@ -1,0 +1,33 @@
+﻿body {
+  background: purple; }
+  body header {
+    margin-bottom: 10px; }
+    body header .logo {
+      background: green;
+      height: 50px; }
+    body header .menu {
+      background: #22003d;
+      height: 50px;
+      margin-top: 10px; }
+  body section {
+    background: blue;
+    height: 500px;
+    padding: 10px; }
+    body section .publicacion {
+      width: 60%;
+      background: yellow;
+      height: 500px;
+      display: inline-block;
+      margin: 5px;
+      box-sizing: border-box; }
+    body section .sidebar {
+      width: 38.7%;
+      background: orange;
+      height: 500px;
+      display: inline-block;
+      margin: 5px;
+      box-sizing: border-box; }
+  body footer {
+    background: pink;
+    height: 100px;
+    margin-top: 15px; }

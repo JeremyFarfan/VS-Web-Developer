@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        //Creación de objetos
+        var alumno = {
+            nombre: "Pedro",
+            apellidos: "Diaz",
+            nota1: 15,
+            nota2: 16,
+            nota3: 15,
+            nota4: 12,
+            promedio: 0,
+            calcularPromedio: function () {
+                this.promedio = (this.nota1 + this.nota2 + this.nota3 + this.nota4) / 4;
+                return this.promedio;
+            }
+        };
+
+        
+        var persona = function (pNombre, pApellidos, pNota1, pNota2, pNota3, pNota4, pPromedio) {
+            this.nombre = pNombre;
+            this.apellidos = pApellidos;
+            this.nota1 = pNota1;
+            this.nota2 = pNota2;
+            this.nota3 = pNota3;
+            this.nota4 = pNota4;
+            this.promedio = pPromedio;
+
+            this.calcularPromedio: function () {
+                this.promedio = (this.nota1 + this.nota2 + this.nota3 + this.nota4) / 4;
+                return this.promedio;
+            }
+        }
+
+        var alumno3 = new persona("Carlos", "Dias", 12, 14, 15);
+        alumnos.push(alumno3);
+
+        var alumno4 = new persona("Carlos", "Dias", 12, 14, 15);
+        alumnos.push(alumno4);
+
+        debugger;
+        console.log("mayor promedio" + calcularMejorPromedio(alumnos));
+
+    </script>
+</body>
+</html>

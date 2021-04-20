@@ -1,0 +1,48 @@
+﻿body {
+    background: purple;
+
+    header {
+        margin-bottom: 10px;
+
+        .logo {
+            background: green;
+            height: 50px;
+        }
+
+        .menu {
+            background: #22003d;
+            height: 50px;
+            margin-top: 10px;
+        }
+    }
+
+    section {
+        background: blue;
+        height: 500px;
+        padding: 10px;
+
+        .publicacion {
+            width: 60%;
+            background: yellow;
+            height: 500px;
+            display: inline-block;
+            margin: 5px;
+            box-sizing: border-box;
+        }
+
+        .sidebar {
+            width: 38.7%;
+            background: orange;
+            height: 500px;
+            display: inline-block;
+            margin: 5px;
+            box-sizing: border-box;
+        }
+    }
+
+    footer {
+        background: pink;
+        height:100px;
+        margin-top:15px;
+    }
+}
